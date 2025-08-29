@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Awareness Project</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    section {
+      padding: 2rem;
+      margin: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0077b6;
+    }
+    .flex {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .card {
+      flex: 1;
+      min-width: 250px;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #fdfdfd;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .bad {
+      color: red;
+      font-weight: bold;
+    }
+    .good {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Health Awareness Project</h1>
+</header>
+
+<section>
+  <h2>📱 Screen Time</h2>
+  <canvas id="screenTimeChart" width="200" height="200"></canvas>
+  <p><strong>Tips:</strong></p>
+  <ul>
+    <li>Use Digital Detox Apps</li>
+    <li>Follow 20-20-20 Rule for Eyes</li>
+    <li>Spend Time Outdoors</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🍔 Fast Food vs 🥗 Homemade Food</h2>
+  <div class="flex">
+    <div class="card">
+      <h3 class="bad">Fast Food</h3>
+      <ul>
+        <li>High Sugar</li>
+        <li>High Fat</li>
+        <li>Obesity Risk</li>
+        <li>Low Immunity</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="good">Homemade Food</h3>
+      <ul>
+        <li>Nutritious</li>
+        <li>Boosts Immunity</li>
+        <li>Healthy Weight</li>
+        <li>Safe & Hygienic</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>💊 Fake Medicines</
